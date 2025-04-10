@@ -1,0 +1,33 @@
+# Matplotlib配置文件 - 完整多语言支持
+# 此配置文件设置全局字体配置，以支持多种语言字符显示
+
+# 字体家族设置
+font.family         : sans-serif, Noto Sans, Noto Sans CJK JP, Amiri, Scheherazade, Abyssinica SIL, Padauk, Lohit Devanagari, Lohit Tamil, Lohit Gujarati, Loma, Garuda, DejaVu Sans, sans-serif, Noto Sans Mono, DejaVu Sans Mono, monospace
+
+# 设置无衬线字体列表，按不同语言需求排序
+# 包含多种语言字体，确保各种语言字符都能正确显示
+font.sans-serif     : Noto Sans, Noto Sans CJK JP, Amiri, Scheherazade, Abyssinica SIL, Padauk, Lohit Devanagari, Lohit Tamil, Lohit Gujarati, Loma, Garuda, DejaVu Sans, Arial, Helvetica, sans-serif
+
+# 设置衬线字体列表
+font.serif          : Noto Serif, Noto Serif CJK JP, Amiri, Scheherazade, Abyssinica SIL, Padauk, Lohit Devanagari, Lohit Tamil, Lohit Gujarati, Loma, Garuda, DejaVu Serif, Times New Roman, Times, serif
+
+# 设置等宽字体列表
+font.monospace      : Noto Sans Mono, DejaVu Sans Mono, Courier New, Courier, monospace
+
+# 解决负号显示问题
+axes.unicode_minus  : False
+
+# 设置默认字体大小
+# font.size           : 10.0
+
+# 设置默认DPI
+# figure.dpi          : 100
+
+# 设置字体权重
+# font.weight         : normal
+
+# 设置默认文本抗锯齿
+# text.antialiased    : True
+
+# 启用字体管理器缓存
+font.manager.use_fontconfig : True

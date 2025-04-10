@@ -1,0 +1,7 @@
+export APP_ENV=PROD
+export RUNTIME_API_HOST=https://api.manus.im
+export PW_TEST_SCREENSHOT_NO_FONTS_READY=1
+export TZ=America/New_York
+export LAST_COMMIT_HASH=bfbd199941f90f808f331f750f38c6d182b09eb8
+export APP_VERSION=3.11
+export GEMINI_API_KEY=
