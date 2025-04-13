@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI PDF Filler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="container">
+        <h1>AI PDF Filler Chat</h1>
+
+        <div id="chatbox">
+            <div id="messages">
+                <!-- Chat messages will appear here -->
+                <div class="message system">Welcome! Upload a PDF form or start chatting.</div>
+            </div>
+        </div>
+
+        <div id="controls">
+            <div id="upload-section">
+                <label for="pdf-upload">Upload PDF/CSV:</label>
+                <input type="file" id="pdf-upload" name="pdf_file" accept=".pdf,.csv">
+                <button id="upload-button">Upload</button>
+                <span id="upload-status"></span>
+            </div>
+            <div id="input-section">
+                <textarea id="message-input" placeholder="Enter your message or data here..."></textarea>
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+
+        <div id="info-section">
+            <h2>Current PDF Info</h2>
+            <div id="pdf-info">No PDF loaded.</div>
+            <h2>Filled Fields</h2>
+            <div id="filled-fields">No fields filled yet.</div>
+            <h2>Downloads</h2>
+            <div id="download-links">No downloads available.</div>
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Python dependencies will be listed here
+# Flask
+Flask
+pypdf
+google-generativeai
+python-dotenv
+# Testing
+pytest
