@@ -1,0 +1,7 @@
+chat_interface/venv/
+chat_interface/.env
+*.log
+chat_interface/downloads/
+chat_interface/uploads/
+downloads/
+uploads/
